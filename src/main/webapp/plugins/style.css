@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu {
+  width: fit-content;
+  min-width: 100%;
+}
+
+/* 將 nav bar 水平置中 */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/* 將導覽列往右對齊 */
+.navbar-nav {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+/* 將 Home 放在最左邊 */
+.navbar-nav>li:first-child {
+  margin-right: auto;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+.carousel .carousel-item {
+  height: 25vw;
+  /* 修改高度，使輪播成為長方形 */
+  background-color: #777;
+}
+
+.carousel-inner>.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* 修改寬度，使圖片填滿整個輪播框 */
+  height: 100%;
+  /* 修改高度，使圖片填滿整個輪播框 */
+  object-fit: cover;
+  /* 保持圖片比例並填滿整個輪播框 */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+.carousel-indicators button {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 12px;
+  margin: 0 5px;
+  width: 12px;
+}
+
+.carousel-indicators .active {
+  background-color: #555;
+}
+
+.protein-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.protein-images img {
+  max-width: 45%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* 解決font-awesome的圖示顯示變成方塊的問題 */
+.fa,
+.fas {
+  font-weight: 900px;
+}
+
+/* 右方的三個按鈕 */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* nav三個按鈕的輸入框 */
+.usersubmit {
+
+  margin: 10px;
+  padding: 3px;
+}
+
+.usersubmit-content {
+  float: left;
+  width: 70px;
+  text-align: right;
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu {
+  width: fit-content;
+  min-width: 100%;
+}
+
+/* 將 nav bar 水平置中 */
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/* 將導覽列往右對齊 */
+.navbar-nav {
+  margin-left: auto;
+  font-size: 24px;
+}
+
+/* 將 Home 放在最左邊 */
+.navbar-nav>li:first-child {
+  margin-right: auto;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  margin-left: 30px;
+}
+

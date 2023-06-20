@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Update Activity data</title>
+</head>
+<body style="background-color:#fdf5e6">
+<div class="box" align="center">
+<h2>修改活動資料</h2>
+<form method="post" action="../UpdateActivity" enctype="multipart/form-data">
+    <input type="hidden" name="activityId" value="">
+    活動名稱：<input type="text" name="activityName" value=""><br>
+    活動內容：<input type="text" name="activityContent" value=""><br>
+    活動日期：<input type="text" name="activityDate" value=""><br>
+    活動地點：<input type="text" name="activityLocation" value=""><br>
+    活動封面：<input type="file" name="activityCover"><br>
+    <input type="submit" value="確定" />
+    <input type="reset" value="取消" />
+</form>
+</div>
+</body>
+</html>
